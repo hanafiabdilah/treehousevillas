@@ -48,7 +48,7 @@ export default function Hero() {
                 Rasakan hangatnya hunian mewah yang cozy, dikelilingi alam yang menenangkan dan harga yang masuk akal.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
-                <a href="#" className="text-sm/6 font-semibold text-green-600">
+                <a href="#" className=" font-semibold text-green-600">
                     Lihat semua villa <span aria-hidden="true">→</span>
                 </a>
                 </div>
