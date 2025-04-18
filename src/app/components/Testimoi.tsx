@@ -118,9 +118,9 @@ export default function Testimoni() {
                       'space-y-8',
                     )}
                   >
-                    {column.map((testimonial) => (
+                    {column.map((testimonial, i) => (
                       <figure
-                        key={testimonial.author.handle}
+                        key={i}
                         className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5"
                       >
                         <blockquote className="text-gray-900">
