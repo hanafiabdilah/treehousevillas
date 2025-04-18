@@ -43,7 +43,7 @@ export default function Contact() {
                   <PhoneIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="http://wa.me/6281226718828" className="hover:text-gray-900">
+                  <a href="https://wa.me/6281226718828" className="hover:text-gray-900">
                     +62 812-2671-8828
                   </a>
                 </dd>

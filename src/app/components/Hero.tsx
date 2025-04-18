@@ -48,6 +48,12 @@ export default function Hero() {
                 Rasakan hangatnya hunian mewah yang cozy, dikelilingi alam yang menenangkan dan harga yang masuk akal.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
+                <a
+                href="https://wa.me/6281226718828"
+                className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                >
+                Booking Sekarang
+                </a>
                 <a href="#" className=" font-semibold text-green-600">
                     Lihat semua villa <span aria-hidden="true">→</span>
                 </a>
