@@ -52,7 +52,7 @@ const posts = [
 export default function Villa() {
     return (
         <div className="bg-white py-24">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-7xl">
                 <div className="mx-auto max-w-2xl text-center">
                     <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                         Temukan Villa Idamanmu
