@@ -1,3 +1,4 @@
+import { WHATSAPP_URL } from '@/app/data/constant'
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function Contact() {
@@ -43,7 +44,7 @@ export default function Contact() {
                   <PhoneIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="https://wa.me/6281226718828" className="hover:text-gray-900">
+                  <a href={WHATSAPP_URL} target="_blank" className="hover:text-gray-900">
                     +62 812-2671-8828
                   </a>
                 </dd>

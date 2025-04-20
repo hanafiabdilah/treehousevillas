@@ -2,7 +2,7 @@ export const villas = [
     {
         id: 1,
         name: 'Villa Palem',
-        href: '#',
+        href: 'villa-palem',
         imageUrl: 'villa/1.webp',
         address: 'Cisarua, Bogor',
         startFromPrice: 'Rp. 1.000.000',
@@ -10,7 +10,7 @@ export const villas = [
     {
         id: 2,
         name: 'Villa Palem',
-        href: '#',
+        href: 'villa-palem',
         imageUrl: 'villa/1.webp',
         address: 'Cisarua, Bogor',
         startFromPrice: 'Rp. 1.000.000',
@@ -18,7 +18,7 @@ export const villas = [
     {
         id: 3,
         name: 'Villa Palem',
-        href: '#',
+        href: 'villa-palem',
         imageUrl: 'villa/1.webp',
         address: 'Cisarua, Bogor',
         startFromPrice: 'Rp. 1.000.000',
@@ -26,7 +26,7 @@ export const villas = [
     {
         id: 4,
         name: 'Villa Palem',
-        href: '#',
+        href: 'villa-palem',
         imageUrl: 'villa/1.webp',
         address: 'Cisarua, Bogor',
         startFromPrice: 'Rp. 1.000.000',
@@ -34,7 +34,7 @@ export const villas = [
     {
         id: 5,
         name: 'Villa Palem',
-        href: '#',
+        href: 'villa-palem',
         imageUrl: 'villa/1.webp',
         address: 'Cisarua, Bogor',
         startFromPrice: 'Rp. 1.000.000',
@@ -42,7 +42,7 @@ export const villas = [
     {
         id: 6,
         name: 'Villa Palem',
-        href: '#',
+        href: 'villa-palem',
         imageUrl: 'villa/1.webp',
         address: 'Cisarua, Bogor',
         startFromPrice: 'Rp. 1.000.000',

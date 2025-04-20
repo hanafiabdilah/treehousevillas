@@ -1,3 +1,5 @@
+import { WHATSAPP_URL } from "@/app/data/constant";
+
 export default function CTA() {
     return (
       <div className="bg-white">
@@ -7,7 +9,8 @@ export default function CTA() {
           </h2>
           <div className="mt-10 flex items-center gap-x-6">
             <a
-              href="https://wa.me/6281226718828"
+              href={WHATSAPP_URL}
+              target="_blank"
               className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
             >
               Hubungi Kami
