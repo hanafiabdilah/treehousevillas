@@ -1,8 +1,8 @@
-import Contact from "./components/Contact";
-import CTA from "./components/CTA";
-import Hero from "./components/Hero";
-import Testimoni from "./components/Testimoi";
-import Villa from "./components/Villa";
+import Contact from "./components/home/Contact";
+import CTA from "./components/home/CTA";
+import Hero from "./components/home/Hero";
+import Testimoni from "./components/home/Testimoi";
+import Villa from "./components/home/Villa";
 
 export default function Home() {
   return (
