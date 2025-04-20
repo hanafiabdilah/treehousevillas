@@ -56,7 +56,7 @@ export default function Hero() {
                 Nyaman, Asri, dan Terjangkau — Hanya di {BRAND_NAME}
                 </h1>
                 <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                Rasakan hangatnya hunian mewah yang cozy, dikelilingi alam yang menenangkan dan harga yang masuk akal.
+                Rasakan hangatnya villa mewah yang cozy, dikelilingi alam yang menenangkan dan harga yang masuk akal.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                 <a
