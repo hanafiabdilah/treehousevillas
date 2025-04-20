@@ -23,7 +23,7 @@ export default function Header() {
               <span className="sr-only">{BRAND_NAME}</span>
               <img
                 alt={"Logo " + BRAND_NAME}
-                src="logo.png"
+                src="/logo.png"
                 className="h-20 w-auto"
               />
             </Link>
@@ -54,7 +54,7 @@ export default function Header() {
                 <span className="sr-only">{BRAND_NAME}</span>
                 <img
                   alt={"LOGO " + BRAND_NAME}
-                  src="logo.png"
+                  src="/logo.png"
                   className="h-20 w-auto"
                 />
               </Link>
