@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 export default function VillaCard({villa}: any){
     return(
         <article className="rounded-lg bg-white shadow hover:shadow-lg transition">
-            <a href={`/villas/${villa.slug}`}>
+            <Link href={`/villas/${villa.slug}`}>
                 <div className="flex items-end overflow-hidden rounded-t-lg">
                     <img src={villa.imageUrl} alt="Hotel Photo" className="aspect-video w-full bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
                 </div>
@@ -24,7 +26,7 @@ export default function VillaCard({villa}: any){
                         </button>
                     </div>
                 </div>
-            </a>
+            </Link>
         </article>
     )
 }
