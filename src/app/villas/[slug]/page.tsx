@@ -17,6 +17,7 @@ import 'swiper/css/thumbs';
 
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import { useState } from 'react'
+import CTA from '@/app/components/home/CTA'
 
 export default function VillaDetail() {
   const params = useParams();
@@ -144,6 +145,9 @@ export default function VillaDetail() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="border-t bg-green-100 border-gray-200">
+        <CTA />
       </div>
     </main>
   )

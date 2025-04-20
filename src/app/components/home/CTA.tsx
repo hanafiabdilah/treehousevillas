@@ -1,8 +1,8 @@
 import { WHATSAPP_URL } from "@/app/data/constant";
 
-export default function CTA() {
+export default function CTA({ className }: { className?: 'string'}) {
     return (
-      <div className="bg-white">
+      <div className={className}>
         <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <h2 className="max-w-2xl text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
             Yuk, Waktunya Staycation Bareng Keluarga!
