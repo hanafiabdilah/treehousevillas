@@ -22,7 +22,7 @@ export default function VillaDetail() {
   const villa = villas.find((v) => v.slug === params.slug)
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  const [activeIndex, setActiveIndex] = useState(-1);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   if (!villa) return notFound()
 
@@ -36,7 +36,7 @@ export default function VillaDetail() {
               style={{
                 '--swiper-navigation-color': '#fff',
                 '--swiper-pagination-color': '#fff',
-              }}
+              } as React.CSSProperties}
               loop={true}
               spaceBetween={10}
               navigation={true}
