@@ -7,6 +7,7 @@ import VillaFacilities from '@/app/components/villa/VillaFacilities'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper as SwiperType } from 'swiper'  // Import tipe Swiper
 
 // Import Swiper styles
 import 'swiper/css';
@@ -21,7 +22,7 @@ export default function VillaDetail() {
   const params = useParams();
   const villa = villas.find((v) => v.slug === params.slug)
 
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null)
   const [activeIndex, setActiveIndex] = useState(0);
 
   if (!villa) return notFound()
