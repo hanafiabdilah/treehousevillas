@@ -50,12 +50,12 @@ export const villas = [
         name: 'Villa Palem',
         slug: 'villa-palem',
         description: 'xxx',
-        imageUrl: '/villa/1.webp',
+        imageUrl: '/villa/2.webp',
         address: 'Cisarua, Bogor',
         images: ['/villa/1.webp', '/villa/2.webp', '/villa/3.webp', '/villa/4.webp', '/villa/5.webp'],
         bookingUrl: "https://wa.me/6281226718828",
         prices: {
-            weekday: 1000000,
+            weekday: 2000000,
             jumat: 3000000,
             sabtu: 3000000
         },
@@ -96,12 +96,12 @@ export const villas = [
         name: 'Villa Palem',
         slug: 'villa-palem',
         description: 'xxx',
-        imageUrl: '/villa/1.webp',
+        imageUrl: '/villa/3.webp',
         address: 'Cisarua, Bogor',
         images: ['/villa/1.webp', '/villa/2.webp', '/villa/3.webp', '/villa/4.webp', '/villa/5.webp'],
         bookingUrl: "https://wa.me/6281226718828",
         prices: {
-            weekday: 1000000,
+            weekday: 3000000,
             jumat: 3000000,
             sabtu: 3000000
         },
@@ -142,12 +142,12 @@ export const villas = [
         name: 'Villa Palem',
         slug: 'villa-palem',
         description: 'xxx',
-        imageUrl: '/villa/1.webp',
+        imageUrl: '/villa/4.webp',
         address: 'Cisarua, Bogor',
         images: ['/villa/1.webp', '/villa/2.webp', '/villa/3.webp', '/villa/4.webp', '/villa/5.webp'],
         bookingUrl: "https://wa.me/6281226718828",
         prices: {
-            weekday: 1000000,
+            weekday: 4000000,
             jumat: 3000000,
             sabtu: 3000000
         },
@@ -188,12 +188,12 @@ export const villas = [
         name: 'Villa Palem',
         slug: 'villa-palem',
         description: 'xxx',
-        imageUrl: '/villa/1.webp',
+        imageUrl: '/villa/5.webp',
         address: 'Cisarua, Bogor',
         images: ['/villa/1.webp', '/villa/2.webp', '/villa/3.webp', '/villa/4.webp', '/villa/5.webp'],
         bookingUrl: "https://wa.me/6281226718828",
         prices: {
-            weekday: 1000000,
+            weekday: 5000000,
             jumat: 3000000,
             sabtu: 3000000
         },
@@ -239,7 +239,7 @@ export const villas = [
         images: ['/villa/1.webp', '/villa/2.webp', '/villa/3.webp', '/villa/4.webp', '/villa/5.webp'],
         bookingUrl: "https://wa.me/6281226718828",
         prices: {
-            weekday: 1000000,
+            weekday: 6000000,
             jumat: 3000000,
             sabtu: 3000000
         },
