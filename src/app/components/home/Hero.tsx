@@ -1,3 +1,14 @@
+import { BRAND_NAME, WHATSAPP_URL } from "@/app/data/constant";
+import Link from "next/link";
+
+const images = [
+    'villa/1.webp', 
+    'villa/2.webp', 
+    'villa/3.webp', 
+    'villa/4.webp', 
+    'villa/5.webp', 
+];
+
 export default function Hero() {
   return (
     <div className="relative isolate">
@@ -42,69 +53,70 @@ export default function Hero() {
             <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <h1 className="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-                Nyaman, Asri, dan Terjangkau — Hanya di Tree House Villas
+                Nyaman, Asri, dan Terjangkau — Hanya di {BRAND_NAME}
                 </h1>
                 <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
                 Rasakan hangatnya hunian mewah yang cozy, dikelilingi alam yang menenangkan dan harga yang masuk akal.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                 <a
-                href="https://wa.me/6281226718828"
+                href={WHATSAPP_URL}
                 className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                target="_blank"
                 >
                 Booking Sekarang
                 </a>
-                <a href="#" className=" font-semibold text-green-600">
+                <Link href="/villas" className=" font-semibold text-green-600">
                     Lihat semua villa <span aria-hidden="true">→</span>
-                </a>
+                </Link>
                 </div>
             </div>
             <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                 <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                <div className="relative">
-                    <img
-                    alt=""
-                    src="villa/1.webp"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
+                    <div className="relative">
+                        <img
+                            alt=""
+                            src={images[0]}
+                            className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                            />
+                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
                 </div>
                 <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                <div className="relative">
-                    <img
-                    alt=""
-                    src="villa/2.webp"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
-                <div className="relative">
-                    <img
-                    alt=""
-                    src="villa/3.webp"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
+                    <div className="relative">
+                        <img
+                        alt=""
+                        src={images[1]}
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        />
+                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                        <img
+                        alt=""
+                        src={images[2]}
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        />
+                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
                 </div>
                 <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                <div className="relative">
-                    <img
-                    alt=""
-                    src="villa/4.webp"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
-                <div className="relative">
-                    <img
-                    alt=""
-                    src="villa/5.webp"
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                    />
-                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                </div>
+                    <div className="relative">
+                        <img
+                        alt=""
+                        src={images[3]}
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        />
+                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                        <img
+                        alt=""
+                        src={images[4]}
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        />
+                        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
                 </div>
             </div>
             </div>
