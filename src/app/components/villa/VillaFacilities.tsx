@@ -1,17 +1,8 @@
 'use client'
+import { Facility } from '@/types/villa';
 import { CheckCircle } from 'lucide-react'
 
-interface Facility {
-  label: string
-  icon?: string // optional if kamu pakai icon name
-  available: boolean
-}
-
-interface FacilitiesProps {
-  facilities: Facility[]
-}
-
-export default function VillaFacilities({ facilities }: FacilitiesProps) {
+export default function VillaFacilities({ facilities }: { facilities: Facility[] }) {
   facilities = facilities.filter(facility => facility.available);
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4">

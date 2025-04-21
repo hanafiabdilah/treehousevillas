@@ -1,5 +1,6 @@
 'use client'
 
+import { Property } from '@/types/villa'
 import { Bed,
   Hotel,
   Bath,
@@ -14,26 +15,7 @@ import { Bed,
   Snowflake,
   Gift, } from 'lucide-react'
 
-  interface PropertyProps {
-    property: {
-      bedrooms: number
-      bathrooms: number
-      capacity: number
-      beds: number
-      floors: number
-      garden: boolean
-      garage: number
-      balcony: boolean
-      view: string
-      kitchen: number
-      livingRoom: number
-      ac: number,
-      freeExtraBed: number
-    }
-  }
-  
-
-export default function VillaProperty({ property }: PropertyProps) {
+export default function VillaProperty({ property }: {property: Property}) {
   const items = [
     { icon: Bed, label: 'Kamar Tidur', value: property.bedrooms },
     { icon: Hotel, label: 'Tempat Tidur', value: property.beds },
