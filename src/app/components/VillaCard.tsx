@@ -9,7 +9,10 @@ export default function VillaCard({ villa }: {villa: Villa}){
                     <img src={villa.imageUrl} alt="Hotel Photo" className="aspect-video w-full bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
                 </div>
                 <div className="px-4 py-3">
-                    <p className="text-slate-600 text-sm">{villa.address}</p>
+                    <div className="flex items-center justify-between">
+                        <p className="text-slate-600 text-sm">{villa.address}</p>
+                        <span className="text-slate-600 text-sm">{villa.property.capacity} orang</span>
+                    </div>
                     <h2 className="text-slate-700 font-bold mt-1 text-xl">{villa.name}</h2>
                     <div className="mt-1 flex items-center justify-between">
                         <div>
