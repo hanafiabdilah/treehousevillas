@@ -1,4 +1,6 @@
-export const villas = [
+import { Villa } from "@/types/villa";
+
+export const villas: Villa[] = [
     {
         id: 1,
         name: 'Villa Palem',

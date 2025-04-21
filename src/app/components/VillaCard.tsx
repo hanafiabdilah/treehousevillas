@@ -1,6 +1,7 @@
+import { Villa } from "@/types/villa";
 import Link from "next/link";
 
-export default function VillaCard({ villa }: any){
+export default function VillaCard({ villa }: {villa: Villa}){
     return(
         <article className="rounded-lg bg-white shadow hover:shadow-lg transition">
             <Link href={`/villas/${villa.slug}`}>
