@@ -1,4 +1,4 @@
-import { BRAND_NAME } from "@/app/data/constant";
+import { BRAND_NAME } from "@/data/constant";
 
   export default function Footer() {
     return (

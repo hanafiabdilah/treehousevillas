@@ -1,7 +1,7 @@
 'use client'
 
 import VillaCard from "../components/VillaCard"
-import { villas } from "../data/villas"
+import { villas } from "@/data/villas"
 
 import {
     Menu,
@@ -109,8 +109,6 @@ export default function Villas(){
           result.sort((a, b) => b.prices.weekday - a.prices.weekday)
         }
       
-        console.log(result);
-
         return result
       }
     

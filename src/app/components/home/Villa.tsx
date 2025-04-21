@@ -1,4 +1,4 @@
-import { villas } from "../../data/villas";
+import { villas } from "../../../data/villas";
 import VillaCard from "../VillaCard";
   
 export default function Villa() {

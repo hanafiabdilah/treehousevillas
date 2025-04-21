@@ -1,4 +1,4 @@
-import { EMAIL, WHATSAPP, WHATSAPP_URL } from '@/app/data/constant'
+import { EMAIL, WHATSAPP, WHATSAPP_URL } from '@/data/constant'
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function Contact() {

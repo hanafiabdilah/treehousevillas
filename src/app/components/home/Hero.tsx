@@ -1,4 +1,4 @@
-import { BRAND_NAME, WHATSAPP_URL } from "@/app/data/constant";
+import { BRAND_NAME, WHATSAPP_URL } from "@/data/constant";
 import Link from "next/link";
 
 const images = [

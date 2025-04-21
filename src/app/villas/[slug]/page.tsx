@@ -1,6 +1,6 @@
 'use client' 
 // app/villas/[slug]/page.tsx
-import { villas } from '@/app/data/villas'
+import { villas } from '@/data/villas'
 import { notFound, useParams } from 'next/navigation'
 import VillaProperty from '@/app/components/villa/VillaProperty'
 import VillaFacilities from '@/app/components/villa/VillaFacilities'

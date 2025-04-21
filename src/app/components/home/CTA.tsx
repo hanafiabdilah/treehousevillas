@@ -1,4 +1,4 @@
-import { WHATSAPP_URL } from "@/app/data/constant";
+import { WHATSAPP_URL } from "@/data/constant";
 
 export default function CTA({ className }: { className?: 'string'}) {
     return (

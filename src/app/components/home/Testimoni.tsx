@@ -1,4 +1,4 @@
-import { featuredTestimonial, testimonials } from "@/app/data/testimonials"
+import { featuredTestimonial, testimonials } from "@/data/testimonials"
 
 function classNames(...classes: any) {
     return classes.filter(Boolean).join(' ')
