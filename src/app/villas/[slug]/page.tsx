@@ -123,7 +123,7 @@ export default function VillaDetail() {
                 type="submit"
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-green-600 px-8 py-3 text-base font-semibold text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
                 >
-                Booking Sekarang
+                Hubungi Kami
               </a>
             </div>
 
