@@ -3,7 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layout/Header";
 import Footer from "./components/home/Footer";
-import { BRAND_NAME, WHATSAPP_URL } from "@/data/constant";
+import { BRAND_NAME } from "@/data/constant";
+import { getWhatsappUrl } from "@/utils/whatsapp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +35,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <a
-          href={WHATSAPP_URL} 
+          href={getWhatsappUrl()} 
           className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg flex items-center justify-center z-50"
           target="_blank"
           rel="noopener noreferrer"

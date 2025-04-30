@@ -1,4 +1,4 @@
-import { WHATSAPP_URL } from "@/data/constant";
+import { getWhatsappUrl } from "@/utils/whatsapp";
 
 export default function CTA({ className }: { className?: 'string'}) {
     return (
@@ -9,7 +9,7 @@ export default function CTA({ className }: { className?: 'string'}) {
           </h2>
           <div className="mt-10 flex items-center gap-x-6">
             <a
-              href={WHATSAPP_URL}
+              href={getWhatsappUrl()}
               target="_blank"
               className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
             >

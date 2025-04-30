@@ -1,4 +1,5 @@
-import { EMAIL, WHATSAPP, WHATSAPP_URL } from '@/data/constant'
+import { EMAIL, WHATSAPP } from '@/data/constant'
+import { getWhatsappUrl } from '@/utils/whatsapp'
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function Contact() {
@@ -44,7 +45,7 @@ export default function Contact() {
                   <PhoneIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href={WHATSAPP_URL} target="_blank" className="hover:text-gray-900">
+                  <a href={getWhatsappUrl()} target="_blank" className="hover:text-gray-900">
                     {WHATSAPP}
                   </a>
                 </dd>
